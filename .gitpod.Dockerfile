@@ -6,7 +6,7 @@ RUN sudo install-packages build-essential curl libffi-dev libffi7 libgmp-dev lib
     echo 'source $HOME/.ghcup/env' >> $HOME/.bashrc && \
     echo 'export PATH=$HOME/.cabal/bin:$HOME/.local/bin:$PATH' >> $HOME/.bashrc && \
     . /home/gitpod/.ghcup/env && \
-    ghcup install ghc 9.2.2 --set && \
+    ghcup install ghc 8.10.7 --set && \
     ghcup install hls --set && \
     ghcup install cabal --set && \
     ghcup install stack --set && \
