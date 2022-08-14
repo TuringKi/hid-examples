@@ -1,0 +1,70 @@
+{
+  "haskell.formattingProvider": "stylish-haskell",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.tokenColorCustomizations": {
+    "keywords": {
+      "fontStyle": "bold italic",
+      "foreground": "#68c4fd"
+    },
+    "[Atom One Dark]": {
+      "strings": {
+        "fontStyle": "italic",
+        "foreground": "#078f5b"
+      }
+    }
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "[Gitpod Dark]": {
+      "rules": {
+        "*.static": {
+          "foreground": "#ee2080",
+          "fontStyle": "bold"
+        },
+        "struct": "#00ff4c",
+        "class": {
+          "fontStyle": " bold",
+          "foreground": "#0faaa5f9",
+        },
+        "property": {
+          "fontStyle": "italic underline",
+          "foreground": "#ffdd45",
+        },
+        "*.local": "#001eff",
+        "parameter": "#c9d12a",
+        "function": "#ff0051",
+        "macro": "#b72ef1",
+        "*.documentation": "#107a22",
+        "clsParameter": "#ffcc00",
+        "keyword.class": "#fff458d5",
+        "intrinsic": "#63d024",
+        "method": {
+          "fontStyle": "italic bold",
+          "foreground": "#ff00d9"
+        },
+        "string": "#ff6a00",
+        "interface": "#0004ff",
+        "enumMember": "#dd47e4",
+        "stringLiteral": "#ff6600",
+        "variable": {
+          "fontStyle": "italic",
+          "foreground": "#00ffbb"
+        },
+        "method.readonly": "#e4f70f",
+        "templateFunction": "#2b6fe4",
+        "namespace": "#c3f55f",
+      }
+    }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.crswap": true,
+    "**/*.boot": true,
+  }
+}
